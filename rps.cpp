@@ -1,8 +1,6 @@
 #include <iostream>
 #include <stdio.h>
 
-using namespace std;
-
 class Tool {
 	int strength;
 protected:
@@ -110,9 +108,9 @@ int main() {
 	Scissors s1(5);
 	Paper p1(7);
 	Rock r1(15);
-	cout << s1.fight(p1) << p1.fight(s1) << endl;
-	cout << p1.fight(r1) << r1.fight(p1) << endl;
-	cout << r1.fight(s1) << s1.fight(r1) << endl;
+	std::cout << s1.fight(p1) << p1.fight(s1) << std::endl;
+	std::cout << p1.fight(r1) << r1.fight(p1) << std::endl;
+	std::cout << r1.fight(s1) << s1.fight(r1) << std::endl;
 
 	return 0;
 }
