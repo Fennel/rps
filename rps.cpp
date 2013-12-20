@@ -2,6 +2,15 @@
 #include <stdio.h>
 
 //some modification
+<<<<<<< HEAD
+<<<<<<< HEAD
+//new line is new
+=======
+//this code needs to be rewritten
+>>>>>>> upstream/master
+using namespace std;
+=======
+>>>>>>> upstream/master
 
 class Tool {
 	int strength;
