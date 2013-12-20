@@ -2,8 +2,6 @@
 #include <stdio.h>
 
 //some modification
-//this code needs to be rewritten
-using namespace std;
 
 class Tool {
 	int strength;
@@ -18,7 +16,7 @@ public:
 		return type;
 	}
 };
-
+using namespace std;
 const char* stringify(Tool* pt){
 	char type = pt->get_type();
 	const char* result;
