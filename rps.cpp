@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 //some modification
+//this code needs to be rewritten
 using namespace std;
 
 class Tool {
