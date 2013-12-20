@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 //some modification
+//new line is new
 using namespace std;
 
 class Tool {
