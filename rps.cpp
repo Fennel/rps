@@ -2,7 +2,11 @@
 #include <stdio.h>
 
 //some modification
+<<<<<<< HEAD
 //new line is new
+=======
+//this code needs to be rewritten
+>>>>>>> upstream/master
 using namespace std;
 
 class Tool {
